@@ -1,0 +1,5 @@
+cxx_binary(
+    name = "time_monotonic",
+    srcs = ["main.cpp"],
+    link_style = "static",
+)

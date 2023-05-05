@@ -1,0 +1,5 @@
+cxx_binary(
+    name = "hello",
+    srcs = ["main.cpp"],
+    link_style = "static",
+)
