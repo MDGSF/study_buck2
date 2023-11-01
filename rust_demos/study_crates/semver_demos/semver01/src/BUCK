@@ -1,0 +1,9 @@
+rust_binary(
+    name = "semver01",
+    srcs = ["main.rs"],
+    crate_root = "main.rs",
+    deps = [
+        "//third-party:semver",
+    ],
+    visibility = ["PUBLIC"],
+)

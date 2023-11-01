@@ -1,0 +1,6 @@
+[workspace]
+resolver = "2"
+members = [
+    "rust_demos/hello_world",
+    "rust_demos/study_crates/semver_demos/semver01",
+]
