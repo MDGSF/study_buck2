@@ -25,4 +25,8 @@ buck2 run root//rust_demos/study_crates/semver_demos/semver01/src:semver01
 - <https://github.com/facebook/buck2>
 - <https://buck2.build/>
 - <https://github.com/facebook/buck2/tree/main/examples>
+- <https://github.com/bazelbuild/starlark>
+- <https://github.com/bazelbuild/starlark/blob/master/spec.md>
+- <https://github.com/google/starlark-go>
+- <https://github.com/facebookexperimental/starlark-rust>
 - <https://steveklabnik.com/writing/updating-buck>
