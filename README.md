@@ -22,6 +22,7 @@ buck2 run root//rust_demos/study_crates/semver_demos/semver01/src:semver01
 
 ## resources
 
+- <https://github.com/sluongng/awesome-buck2>
 - <https://github.com/facebook/buck2>
 - <https://buck2.build/>
 - <https://github.com/facebook/buck2/tree/main/examples>
