@@ -1,0 +1,14 @@
+load("//buck_scripts/test_utils.bzl", "assert_output")
+
+cxx_binary(
+    name = "main",
+    srcs = ["main.cpp"],
+    link_style = "static",
+    deps = ["//cpp_demos/libhello:libhello"],
+)
+
+assert_output(
+    name = "check_main",
+    command = "$(exe_target :main)",
+    output = "hello world from cpp toolchain",
+)

@@ -1,0 +1,6 @@
+cxx_library(
+    name = "libhello",
+    srcs = glob(["**/*.cpp"]),
+    exported_headers = glob(["**/*.hpp"]),
+    visibility = ["PUBLIC"],
+)
