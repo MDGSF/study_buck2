@@ -1,0 +1,6 @@
+cxx_binary(
+    name = "gettime_usage",
+    srcs = ["main.cpp"],
+    link_style = "static",
+    deps = ["//cpp_demos/gettime:gettime"],
+)
